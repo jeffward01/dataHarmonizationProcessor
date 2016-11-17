@@ -1,0 +1,5 @@
+C:\Dev\projects\USL\svn\trunks\Source\DataHarmonizationProcessor\DataHarmonizationProcessor\DataHarmonizationProcessor.Tests\bin\Debug\DataHarmonizationProcessor.Tests.dll
+C:\Dev\projects\USL\svn\trunks\Source\DataHarmonizationProcessor\DataHarmonizationProcessor\DataHarmonizationProcessor.Tests\bin\Debug\DataHarmonizationProcessor.Tests.pdb
+C:\Dev\projects\USL\svn\trunks\Source\DataHarmonizationProcessor\DataHarmonizationProcessor\DataHarmonizationProcessor.Tests\obj\Debug\DataHarmonizationProcessor.Tests.dll
+C:\Dev\projects\USL\svn\trunks\Source\DataHarmonizationProcessor\DataHarmonizationProcessor\DataHarmonizationProcessor.Tests\obj\Debug\DataHarmonizationProcessor.Tests.pdb
+C:\Dev\projects\USL\svn\trunks\Source\DataHarmonizationProcessor\DataHarmonizationProcessor\DataHarmonizationProcessor.Tests\obj\Debug\DataHarmonizationProcessor.Tests.csprojResolveAssemblyReference.cache

@@ -1,0 +1,39 @@
+2016-11-15 15:21:55.6216|INFO|Topshelf.HostFactory|Configuration Result:
+[Success] Name DataHarmonizationProcessor
+[Success] ServiceName DataHarmonizationProcessor
+2016-11-15 15:21:55.6406|INFO|Topshelf.HostConfigurators.HostConfiguratorImpl|Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2016-11-15 15:21:55.6506|INFO|DataHarmonizationProcessor.Application.DataHarmonizationService|***DataHarmonization constructor hit ***
+2016-11-15 15:21:56.5536|DEBUG|Topshelf.Builders.RunBuilder|Running as a console application, creating the console host.
+2016-11-15 15:21:56.5586|DEBUG|Topshelf.Hosts.ConsoleRunHost|Starting up as a console application
+2016-11-15 15:21:56.5586|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|***DataHarmonization service starts.***
+2016-11-15 15:21:56.5586|INFO|DataHarmonizationProcessor.Application.DataHarmonizationService|__ PollingTimer Started*
+2016-11-15 15:21:56.5586|INFO|Topshelf.Hosts.ConsoleRunHost|The DataHarmonizationProcessor service is now running, press Control+C to exit.
+2016-11-15 15:21:57.6556|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-15 15:21:58.6616|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-15 15:21:59.6746|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-15 15:22:00.6906|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-15 15:22:01.7026|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-15 15:22:02.7176|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-15 15:22:03.7306|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-15 15:22:08.5986|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-15 15:25:01.8256|INFO|Topshelf.HostFactory|Configuration Result:
+[Success] Name DataHarmonizationProcessor
+[Success] ServiceName DataHarmonizationProcessor
+2016-11-15 15:25:01.8546|INFO|Topshelf.HostConfigurators.HostConfiguratorImpl|Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2016-11-15 15:25:02.7846|DEBUG|Topshelf.Builders.RunBuilder|Running as a console application, creating the console host.
+2016-11-15 15:25:02.7896|DEBUG|Topshelf.Hosts.ConsoleRunHost|Starting up as a console application
+2016-11-15 15:25:02.7896|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|***DataHarmonization service starts.***
+2016-11-15 15:25:02.7896|INFO|DataHarmonizationProcessor.Application.DataHarmonizationService|__ PollingTimer Started*
+2016-11-15 15:25:02.8036|INFO|Topshelf.Hosts.ConsoleRunHost|The DataHarmonizationProcessor service is now running, press Control+C to exit.
+2016-11-15 15:25:12.8046|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-15 15:25:22.8066|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-15 15:26:04.1206|INFO|Topshelf.HostFactory|Configuration Result:
+[Success] Name DataHarmonizationProcessor
+[Success] ServiceName DataHarmonizationProcessor
+2016-11-15 15:26:04.1376|INFO|Topshelf.HostConfigurators.HostConfiguratorImpl|Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2016-11-15 15:26:05.0486|DEBUG|Topshelf.Builders.RunBuilder|Running as a console application, creating the console host.
+2016-11-15 15:26:05.0486|DEBUG|Topshelf.Hosts.ConsoleRunHost|Starting up as a console application
+2016-11-15 15:26:05.0486|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|***DataHarmonization service starts.***
+2016-11-15 15:26:05.0486|INFO|DataHarmonizationProcessor.Application.DataHarmonizationService|__ PollingTimer Started*
+2016-11-15 15:26:05.0646|INFO|Topshelf.Hosts.ConsoleRunHost|The DataHarmonizationProcessor service is now running, press Control+C to exit.
+2016-11-15 15:26:15.0656|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********

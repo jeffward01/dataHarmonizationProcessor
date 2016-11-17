@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataHarmonizationProcessor", "DataHarmonizationProcessor\DataHarmonizationProcessor.csproj", "{8F5A22C5-89E4-41C2-876F-CCE79FAB6CA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataHarmonizationProcessor.Data", "DataHarmonizationProcessor.Data\DataHarmonizationProcessor.Data.csproj", "{74475E47-6743-4597-81A0-462F55C62265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataHarmonizationProcessor.Business", "DataHarmonizationProcessor.Business\DataHarmonizationProcessor.Business.csproj", "{6F87332E-E484-42EF-B270-8388431A09C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMPG.USL.Models", "..\..\Shared\UMPG.USL.Models\UMPG.USL.Models.csproj", "{47A581C5-6A3D-4EE4-94E8-CD088E44E288}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataHarmonizationProcessor.Tests", "DataHarmonizationProcessor.Tests\DataHarmonizationProcessor.Tests.csproj", "{69006B42-77DC-43B1-A06A-128B8C84527C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UMPG.USL.Common", "..\..\Shared\UMPG.USL.Common\UMPG.USL.Common.csproj", "{72C862BE-D318-4118-BD78-FB9E2DB99A4D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F5A22C5-89E4-41C2-876F-CCE79FAB6CA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5A22C5-89E4-41C2-876F-CCE79FAB6CA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5A22C5-89E4-41C2-876F-CCE79FAB6CA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5A22C5-89E4-41C2-876F-CCE79FAB6CA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74475E47-6743-4597-81A0-462F55C62265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74475E47-6743-4597-81A0-462F55C62265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74475E47-6743-4597-81A0-462F55C62265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74475E47-6743-4597-81A0-462F55C62265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F87332E-E484-42EF-B270-8388431A09C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F87332E-E484-42EF-B270-8388431A09C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F87332E-E484-42EF-B270-8388431A09C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F87332E-E484-42EF-B270-8388431A09C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47A581C5-6A3D-4EE4-94E8-CD088E44E288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47A581C5-6A3D-4EE4-94E8-CD088E44E288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47A581C5-6A3D-4EE4-94E8-CD088E44E288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47A581C5-6A3D-4EE4-94E8-CD088E44E288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69006B42-77DC-43B1-A06A-128B8C84527C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69006B42-77DC-43B1-A06A-128B8C84527C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69006B42-77DC-43B1-A06A-128B8C84527C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69006B42-77DC-43B1-A06A-128B8C84527C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72C862BE-D318-4118-BD78-FB9E2DB99A4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72C862BE-D318-4118-BD78-FB9E2DB99A4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72C862BE-D318-4118-BD78-FB9E2DB99A4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72C862BE-D318-4118-BD78-FB9E2DB99A4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

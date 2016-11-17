@@ -1,0 +1,147 @@
+2016-11-17 14:38:09.2699|INFO|DataHarmonizationProcessor.Business.Managers.SnapshotLicenseProductManager|ArtistRecsId: 4611
+2016-11-17 14:38:21.7949|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196237
+2016-11-17 14:38:21.7949|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196237
+2016-11-17 14:38:41.2459|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196238
+2016-11-17 14:38:41.2669|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196238
+2016-11-17 14:39:03.8459|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196239
+2016-11-17 14:39:03.8459|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196239
+2016-11-17 14:39:25.7739|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196240
+2016-11-17 14:39:25.7799|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196240
+2016-11-17 14:39:34.4529|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|Finsihed Processing LicenseId: 24733 Action: Create
+2016-11-17 14:39:34.5289|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue
+2016-11-17 14:39:44.5299|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 14:39:44.6069|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue.  Queue is empty.  Sleep for 5 seconds.
+2016-11-17 14:39:59.6089|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 14:39:59.6869|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue.  Queue is empty.  Sleep for 5 seconds.
+2016-11-17 14:42:11.3599|INFO|Topshelf.HostFactory|Configuration Result:
+[Success] Name DataHarmonizationProcessor
+[Success] ServiceName DataHarmonizationProcessor
+2016-11-17 14:42:11.3859|INFO|Topshelf.HostConfigurators.HostConfiguratorImpl|Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2016-11-17 14:42:12.8389|DEBUG|Topshelf.Builders.RunBuilder|Running as a console application, creating the console host.
+2016-11-17 14:42:12.8459|DEBUG|Topshelf.Hosts.ConsoleRunHost|Starting up as a console application
+2016-11-17 14:42:12.8459|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|***DataHarmonization service starts.***
+2016-11-17 14:42:12.8589|INFO|DataHarmonizationProcessor.Application.DataHarmonizationService|__ PollingTimer Started*
+2016-11-17 14:42:12.8589|INFO|Topshelf.Hosts.ConsoleRunHost|The DataHarmonizationProcessor service is now running, press Control+C to exit.
+2016-11-17 14:42:22.8609|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 14:42:25.3499|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue.  Queue is empty.  Sleep for 5 seconds.
+2016-11-17 14:42:40.3609|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 14:42:40.4399|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue.  Queue is empty.  Sleep for 5 seconds.
+2016-11-17 14:42:55.4439|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 14:42:55.5229|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue.  Queue is empty.  Sleep for 5 seconds.
+2016-11-17 14:43:10.5259|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 14:43:10.6049|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue.  Queue is empty.  Sleep for 5 seconds.
+2016-11-17 14:43:25.6159|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 14:43:25.6959|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|1 items in Queue
+2016-11-17 14:43:25.8089|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|Processing LicenseId 24733, Action Type: Delete
+2016-11-17 14:43:25.8089|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|About to delete snapshot for LicenseId 24733
+2016-11-17 14:45:54.4349|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|Finsihed Processing LicenseId: 24733 Action: Delete
+2016-11-17 14:45:54.5129|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue
+2016-11-17 14:52:39.5309|INFO|Topshelf.HostFactory|Configuration Result:
+[Success] Name DataHarmonizationProcessor
+[Success] ServiceName DataHarmonizationProcessor
+2016-11-17 14:52:39.5569|INFO|Topshelf.HostConfigurators.HostConfiguratorImpl|Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2016-11-17 14:52:40.9929|DEBUG|Topshelf.Builders.RunBuilder|Running as a console application, creating the console host.
+2016-11-17 14:52:40.9969|DEBUG|Topshelf.Hosts.ConsoleRunHost|Starting up as a console application
+2016-11-17 14:52:40.9969|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|***DataHarmonization service starts.***
+2016-11-17 14:52:40.9969|INFO|DataHarmonizationProcessor.Application.DataHarmonizationService|__ PollingTimer Started*
+2016-11-17 14:52:40.9969|INFO|Topshelf.Hosts.ConsoleRunHost|The DataHarmonizationProcessor service is now running, press Control+C to exit.
+2016-11-17 14:52:51.0019|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 14:52:53.5449|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|1 items in Queue
+2016-11-17 14:52:53.6529|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|Processing LicenseId 24733, Action Type: Create
+2016-11-17 14:52:53.6529|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|About to create snapshot for LicenseId 24733
+2016-11-17 14:53:06.1719|INFO|DataHarmonizationProcessor.Business.Managers.SnapshotLicenseProductManager|ArtistRecsId: 4611
+2016-11-17 14:53:18.6589|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196237
+2016-11-17 14:53:18.6589|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196237
+2016-11-17 14:53:38.3899|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196238
+2016-11-17 14:53:38.3899|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196238
+2016-11-17 14:54:00.8929|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196239
+2016-11-17 14:54:00.8929|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196239
+2016-11-17 14:54:22.7979|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196240
+2016-11-17 14:54:22.8009|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196240
+2016-11-17 14:54:31.8029|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|Finsihed Processing LicenseId: 24733 Action: Create
+2016-11-17 14:54:31.8849|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue
+2016-11-17 14:54:49.3449|INFO|Topshelf.HostFactory|Configuration Result:
+[Success] Name DataHarmonizationProcessor
+[Success] ServiceName DataHarmonizationProcessor
+2016-11-17 14:54:49.3619|INFO|Topshelf.HostConfigurators.HostConfiguratorImpl|Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2016-11-17 14:54:51.1019|DEBUG|Topshelf.Builders.RunBuilder|Running as a console application, creating the console host.
+2016-11-17 14:54:51.1019|DEBUG|Topshelf.Hosts.ConsoleRunHost|Starting up as a console application
+2016-11-17 14:54:51.1229|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|***DataHarmonization service starts.***
+2016-11-17 14:54:51.1229|INFO|DataHarmonizationProcessor.Application.DataHarmonizationService|__ PollingTimer Started*
+2016-11-17 14:54:51.1229|INFO|Topshelf.Hosts.ConsoleRunHost|The DataHarmonizationProcessor service is now running, press Control+C to exit.
+2016-11-17 14:55:01.1279|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 14:55:03.7419|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue.  Queue is empty.  Sleep for 5 seconds.
+2016-11-17 14:55:18.7589|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 14:55:18.8419|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|1 items in Queue
+2016-11-17 14:55:18.9489|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|Processing LicenseId 24733, Action Type: Delete
+2016-11-17 14:55:18.9489|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|About to delete snapshot for LicenseId 24733
+2016-11-17 14:58:43.0269|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|Finsihed Processing LicenseId: 24733 Action: Delete
+2016-11-17 14:58:43.1039|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue
+2016-11-17 15:01:39.5279|INFO|Topshelf.HostFactory|Configuration Result:
+[Success] Name DataHarmonizationProcessor
+[Success] ServiceName DataHarmonizationProcessor
+2016-11-17 15:01:39.5539|INFO|Topshelf.HostConfigurators.HostConfiguratorImpl|Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2016-11-17 15:01:41.1629|DEBUG|Topshelf.Builders.RunBuilder|Running as a console application, creating the console host.
+2016-11-17 15:01:41.1689|DEBUG|Topshelf.Hosts.ConsoleRunHost|Starting up as a console application
+2016-11-17 15:01:41.1689|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|***DataHarmonization service starts.***
+2016-11-17 15:01:41.1689|INFO|DataHarmonizationProcessor.Application.DataHarmonizationService|__ PollingTimer Started*
+2016-11-17 15:01:41.1689|INFO|Topshelf.Hosts.ConsoleRunHost|The DataHarmonizationProcessor service is now running, press Control+C to exit.
+2016-11-17 15:01:51.1789|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 15:01:53.7739|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|1 items in Queue
+2016-11-17 15:01:53.8769|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|Processing LicenseId 24733, Action Type: Create
+2016-11-17 15:01:53.8809|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|About to create snapshot for LicenseId 24733
+2016-11-17 15:02:05.7569|INFO|DataHarmonizationProcessor.Business.Managers.SnapshotLicenseProductManager|ArtistRecsId: 4611
+2016-11-17 15:02:18.2299|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196237
+2016-11-17 15:02:18.2299|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196237
+2016-11-17 15:02:37.5629|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196238
+2016-11-17 15:02:37.5629|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196238
+2016-11-17 15:03:00.6719|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196239
+2016-11-17 15:03:00.6719|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196239
+2016-11-17 15:03:22.4799|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196240
+2016-11-17 15:03:22.4799|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196240
+2016-11-17 15:03:31.1289|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|Finsihed Processing LicenseId: 24733 Action: Create
+2016-11-17 15:03:31.2089|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue
+2016-11-17 15:03:41.2129|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 15:03:41.2929|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue.  Queue is empty.  Sleep for 5 seconds.
+2016-11-17 15:03:56.3099|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 15:03:56.3899|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue.  Queue is empty.  Sleep for 5 seconds.
+2016-11-17 15:04:11.3949|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 15:04:11.4759|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|1 items in Queue
+2016-11-17 15:04:11.5559|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|Processing LicenseId 24733, Action Type: Delete
+2016-11-17 15:04:11.5559|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|About to delete snapshot for LicenseId 24733
+2016-11-17 15:15:09.7539|INFO|Topshelf.HostFactory|Configuration Result:
+[Success] Name DataHarmonizationProcessor
+[Success] ServiceName DataHarmonizationProcessor
+2016-11-17 15:15:09.7799|INFO|Topshelf.HostConfigurators.HostConfiguratorImpl|Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2016-11-17 15:15:11.3899|DEBUG|Topshelf.Builders.RunBuilder|Running as a console application, creating the console host.
+2016-11-17 15:15:11.3899|DEBUG|Topshelf.Hosts.ConsoleRunHost|Starting up as a console application
+2016-11-17 15:15:11.3899|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|***DataHarmonization service starts.***
+2016-11-17 15:15:11.4029|INFO|DataHarmonizationProcessor.Application.DataHarmonizationService|__ PollingTimer Started*
+2016-11-17 15:15:11.4029|INFO|Topshelf.Hosts.ConsoleRunHost|The DataHarmonizationProcessor service is now running, press Control+C to exit.
+2016-11-17 15:15:21.4049|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 15:15:23.9869|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|1 items in Queue
+2016-11-17 15:15:24.0919|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|Processing LicenseId 24733, Action Type: Create
+2016-11-17 15:15:24.0919|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|About to create snapshot for LicenseId 24733
+2016-11-17 15:15:36.0759|INFO|DataHarmonizationProcessor.Business.Managers.SnapshotLicenseProductManager|ArtistRecsId: 4611
+2016-11-17 15:15:48.6749|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196237
+2016-11-17 15:15:48.6749|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196237
+2016-11-17 15:16:08.1379|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196238
+2016-11-17 15:16:08.1419|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196238
+2016-11-17 15:16:30.8429|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196239
+2016-11-17 15:16:30.8429|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196239
+2016-11-17 15:16:53.0039|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196240
+2016-11-17 15:16:53.0069|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196240
+2016-11-17 15:17:01.7159|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|Finsihed Processing LicenseId: 24733 Action: Create
+2016-11-17 15:17:01.7959|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue
+2016-11-17 15:17:11.8009|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 15:17:11.8799|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue.  Queue is empty.  Sleep for 5 seconds.
+2016-11-17 15:17:26.8899|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 15:17:26.9709|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue.  Queue is empty.  Sleep for 5 seconds.
+2016-11-17 15:17:41.9899|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 15:17:42.0779|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|1 items in Queue
+2016-11-17 15:17:42.1579|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|Processing LicenseId 24733, Action Type: Delete
+2016-11-17 15:17:42.1629|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|About to delete snapshot for LicenseId 24733
+2016-11-17 15:21:15.2679|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|Finsihed Processing LicenseId: 24733 Action: Delete
+2016-11-17 15:21:20.2479|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue
+2016-11-17 15:21:30.2679|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 15:21:30.3469|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue.  Queue is empty.  Sleep for 5 seconds.
