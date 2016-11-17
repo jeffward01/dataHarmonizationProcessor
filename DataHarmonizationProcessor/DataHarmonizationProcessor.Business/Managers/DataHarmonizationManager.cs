@@ -51,7 +51,6 @@ namespace DataHarmonizationProcessor.Business.Managers
             }
             finally
             {
-                //make this smart
                 _dataHarmonizationQueueService.CreateMarkAsComplete(queueItem);
             }
 
@@ -83,8 +82,7 @@ namespace DataHarmonizationProcessor.Business.Managers
             }
             finally
             {
-                ////make this smart
-                _dataHarmonizationQueueService.MarkAsComplete(queueItem);
+                _dataHarmonizationQueueService.DeleteMarkAsComplete(queueItem);
             }
             return true;
         }
