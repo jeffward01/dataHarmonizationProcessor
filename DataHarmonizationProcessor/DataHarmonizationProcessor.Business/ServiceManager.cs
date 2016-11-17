@@ -1,6 +1,10 @@
-﻿using DataHarmonizationProcessor.Business.Logging;
+﻿using System;
+using System.Runtime.InteropServices;
+using DataHarmonizationProcessor.Business.Logging;
 using DataHarmonizationProcessor.Business.Managers;
 using DataHarmonizationProcessor.Business.Services;
+using DataHarmonizationProcessor.Data.Repositories;
+using UMPG.USL.Models.DataHarmonization;
 
 namespace DataHarmonizationProcessor.Business
 {
@@ -10,9 +14,11 @@ namespace DataHarmonizationProcessor.Business
         private readonly IDataHarmonizationQueueService _dataHarmonizationService;
         private readonly IDataProcessorService _dataProcessorService;
         private readonly IDataHarmonizationManager _dataHarmonizationManager;
+        private readonly IDataHarmonizationQueueRepository _dataHarmonizationQueueRepository;
 
-        public  ServiceManager(IDataHarmonizationLogManager logManager, IDataHarmonizationQueueService dataHarmonizationQueueService, IDataProcessorService dataProcessorService, IDataHarmonizationManager dataHarmonizationManager)
+        public  ServiceManager(IDataHarmonizationLogManager logManager, IDataHarmonizationQueueService dataHarmonizationQueueService, IDataProcessorService dataProcessorService, IDataHarmonizationManager dataHarmonizationManager, IDataHarmonizationQueueRepository dataHarmonizationQueueRepository)
         {
+            _dataHarmonizationQueueRepository = dataHarmonizationQueueRepository;
             _dataHarmonizationManager = dataHarmonizationManager;
             _logManager = logManager;
             _dataProcessorService = dataProcessorService;
@@ -31,7 +37,7 @@ namespace DataHarmonizationProcessor.Business
                 while (numberOfItemsInQueue != 0)
                 {
                     //get first item in queue
-                    var firstPendingItem = _dataHarmonizationService.GetFirstItemInQueue();
+                    var firstPendingItem = GetFirstItemInQueue();
                     _logManager.LogMessage("Processing LicenseId " + firstPendingItem.LicenseId + ", Action Type: " + ReturnActionType(firstPendingItem.ActionTypeId));
 
                     if (firstPendingItem.ActionTypeId == 1)
@@ -62,6 +68,15 @@ namespace DataHarmonizationProcessor.Business
         private string ReturnActionType(int typeId)
         {
             return typeId == 1 ? "Create" : "Delete";
+        }
+
+        private DataHarmonizationQueue GetFirstItemInQueue()
+        {
+            var firstPendingItem = _dataHarmonizationService.GetFirstItemInQueue();
+            firstPendingItem.ModifiedDate = DateTime.Now;
+            _dataHarmonizationQueueRepository.EditDataHarmonizationQueue(firstPendingItem);
+            return firstPendingItem;
+
         }
     }
 }
