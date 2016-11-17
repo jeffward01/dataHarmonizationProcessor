@@ -52,7 +52,7 @@ namespace DataHarmonizationProcessor.Business.Managers
             finally
             {
                 //make this smart
-                _dataHarmonizationQueueService.MarkAsComplete(queueItem);
+                _dataHarmonizationQueueService.CreateMarkAsComplete(queueItem);
             }
 
             return true;

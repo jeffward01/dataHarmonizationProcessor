@@ -10,8 +10,9 @@ namespace DataHarmonizationProcessor.Business.Services
         int GetPendingCountForDeleteRequests();
         DataHarmonizationQueue GetFirstItemInQueue();
         bool ArePendingItemsInQueue();
+        DataHarmonizationQueue CreateMarkAsComplete(DataHarmonizationQueue dataHarmonizationQueueItem);
         DataHarmonizationQueue MarkAsInProcess(DataHarmonizationQueue dataHarmonizationQueueItem);
-        DataHarmonizationQueue MarkAsComplete(DataHarmonizationQueue dataHarmonizationQueueItem);
+        DataHarmonizationQueue DeleteMarkAsComplete(DataHarmonizationQueue dataHarmonizationQueueItem);
         DataHarmonizationQueue MarkAsError(DataHarmonizationQueue dataHarmonizationQueueItem);
         LU_ActionType GetActionType(DataHarmonizationQueue dataHarmonizationQueueItem);
     }

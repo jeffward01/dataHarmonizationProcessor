@@ -10,11 +10,13 @@ namespace DataHarmonizationProcessor.Business.Services
     {
         private readonly IDataHarmonizationQueueRepository _dataHarmonizationQueueRepository;
         private readonly IDataHarmonizationLogManager _logManager;
+        private readonly ISnapshotLicenseRepository _snapshotLicenseRepository;
 
-        public DataHarmonizationQueueService(IDataHarmonizationQueueRepository dataHarmonizationQueueRepository, IDataHarmonizationLogManager logManager)
+        public DataHarmonizationQueueService(IDataHarmonizationQueueRepository dataHarmonizationQueueRepository, IDataHarmonizationLogManager logManager, ISnapshotLicenseRepository snapshotLicenseRepository)
         {
             _logManager = logManager;
             _dataHarmonizationQueueRepository = dataHarmonizationQueueRepository;
+            _snapshotLicenseRepository = snapshotLicenseRepository;
         }
 
         //Get New pending count (all)
@@ -51,32 +53,44 @@ namespace DataHarmonizationProcessor.Business.Services
         public DataHarmonizationQueue MarkAsInProcess(DataHarmonizationQueue dataHarmonizationQueueItem)
         {
             dataHarmonizationQueueItem.DataProcessorStatusId = 2;
-            try
-            {
-                dataHarmonizationQueueItem =
-                _dataHarmonizationQueueRepository.EditDataHarmonizationQueue(dataHarmonizationQueueItem);
-            }
-            catch (Exception e)
-            {
-                _logManager.LogErrors(e);
-                throw new Exception("Error Updating DataHarmonizationQueue Item");
-            }
+            EditQueueItem(dataHarmonizationQueueItem);
+
             return dataHarmonizationQueueItem;
         }
 
         //mark item as complete
-        public DataHarmonizationQueue MarkAsComplete(DataHarmonizationQueue dataHarmonizationQueueItem)
+        public DataHarmonizationQueue CreateMarkAsComplete(DataHarmonizationQueue dataHarmonizationQueueItem)
         {
             dataHarmonizationQueueItem.DataProcessorStatusId = 3;
-            try
+            //check if snapshot exists, it should
+            var exists = _snapshotLicenseRepository.DoesLicenseSnapshotExist(dataHarmonizationQueueItem.LicenseId);
+            if (exists)
             {
-                dataHarmonizationQueueItem =
-                _dataHarmonizationQueueRepository.EditDataHarmonizationQueue(dataHarmonizationQueueItem);
+                dataHarmonizationQueueItem.DataProcessorStatusId = 3;
+                EditQueueItem(dataHarmonizationQueueItem);
             }
-            catch (Exception e)
+            else
             {
-                _logManager.LogErrors(e);
-                throw new Exception("Error Updating DataHarmonizationQueue Item");
+                dataHarmonizationQueueItem.DataProcessorStatusId = 4;
+                EditQueueItem(dataHarmonizationQueueItem);
+            }
+
+            return dataHarmonizationQueueItem;
+        }
+
+        public DataHarmonizationQueue DeleteMarkAsComplete(DataHarmonizationQueue dataHarmonizationQueueItem)
+        {
+            //check if snapshot exists, it shouldnt
+            var exists = _snapshotLicenseRepository.DoesLicenseSnapshotExist(dataHarmonizationQueueItem.LicenseId);
+            if (!exists)
+            {
+                dataHarmonizationQueueItem.DataProcessorStatusId = 3;
+                EditQueueItem(dataHarmonizationQueueItem);
+            }
+            else
+            {
+                dataHarmonizationQueueItem.DataProcessorStatusId = 4;
+                EditQueueItem(dataHarmonizationQueueItem);
             }
             return dataHarmonizationQueueItem;
         }
@@ -85,16 +99,8 @@ namespace DataHarmonizationProcessor.Business.Services
         public DataHarmonizationQueue MarkAsError(DataHarmonizationQueue dataHarmonizationQueueItem)
         {
             dataHarmonizationQueueItem.DataProcessorStatusId = 4;
-            try
-            {
-                dataHarmonizationQueueItem =
-                _dataHarmonizationQueueRepository.EditDataHarmonizationQueue(dataHarmonizationQueueItem);
-            }
-            catch (Exception e)
-            {
-                _logManager.LogErrors(e);
-                throw new Exception("Error Updating DataHarmonizationQueue Item");
-            }
+            EditQueueItem(dataHarmonizationQueueItem);
+
             return dataHarmonizationQueueItem;
         }
 
@@ -102,6 +108,19 @@ namespace DataHarmonizationProcessor.Business.Services
         public LU_ActionType GetActionType(DataHarmonizationQueue dataHarmonizationQueueItem)
         {
             return dataHarmonizationQueueItem.ActionType;
+        }
+
+        private void EditQueueItem(DataHarmonizationQueue item)
+        {
+            try
+            {
+                _dataHarmonizationQueueRepository.EditDataHarmonizationQueue(item);
+            }
+            catch (Exception e)
+            {
+                _logManager.LogErrors(e);
+                throw new Exception("Error Updating DataHarmonizationQueue Item");
+            }
         }
     }
 }
