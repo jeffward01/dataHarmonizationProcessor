@@ -66,6 +66,7 @@ namespace DataHarmonizationProcessor.Business.Services
             var exists = _snapshotLicenseRepository.DoesLicenseSnapshotExist(dataHarmonizationQueueItem.LicenseId);
             if (exists)
             {
+                dataHarmonizationQueueItem.Deleted = DateTime.Now;
                 dataHarmonizationQueueItem.DataProcessorStatusId = 3;
                 EditQueueItem(dataHarmonizationQueueItem);
             }
@@ -84,6 +85,7 @@ namespace DataHarmonizationProcessor.Business.Services
             var exists = _snapshotLicenseRepository.DoesLicenseSnapshotExist(dataHarmonizationQueueItem.LicenseId);
             if (!exists)
             {
+                dataHarmonizationQueueItem.Deleted = DateTime.Now;
                 dataHarmonizationQueueItem.DataProcessorStatusId = 3;
                 EditQueueItem(dataHarmonizationQueueItem);
             }

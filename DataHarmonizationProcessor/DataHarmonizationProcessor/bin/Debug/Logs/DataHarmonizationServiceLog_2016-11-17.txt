@@ -191,3 +191,30 @@
 2016-11-17 15:43:52.8109|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|About to delete snapshot for LicenseId 24733
 2016-11-17 15:51:16.0289|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|Finsihed Processing LicenseId: 24733 Action: Delete
 2016-11-17 15:51:16.1069|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|0 items in Queue
+2016-11-17 15:59:24.9639|INFO|Topshelf.HostFactory|Configuration Result:
+[Success] Name DataHarmonizationProcessor
+[Success] ServiceName DataHarmonizationProcessor
+2016-11-17 15:59:24.9989|INFO|Topshelf.HostConfigurators.HostConfiguratorImpl|Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2016-11-17 15:59:27.2759|DEBUG|Topshelf.Builders.RunBuilder|Running as a console application, creating the console host.
+2016-11-17 15:59:27.2759|DEBUG|Topshelf.Hosts.ConsoleRunHost|Starting up as a console application
+2016-11-17 15:59:27.2759|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|***DataHarmonization service starts.***
+2016-11-17 15:59:27.2759|INFO|DataHarmonizationProcessor.Application.DataHarmonizationService|__ PollingTimer Started*
+2016-11-17 15:59:27.2879|INFO|Topshelf.Hosts.ConsoleRunHost|The DataHarmonizationProcessor service is now running, press Control+C to exit.
+2016-11-17 15:59:37.2879|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|*********DataHarmonization processor activated.*********
+2016-11-17 15:59:39.9559|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|1 items in Queue
+2016-11-17 15:59:40.2939|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|Processing LicenseId 24733, Action Type: Create
+2016-11-17 15:59:40.2939|DEBUG|DataHarmonizationProcessor.Business.Logging.DataHarmonizationLogManager|About to create snapshot for LicenseId 24733
+2016-11-17 15:59:52.3759|INFO|DataHarmonizationProcessor.Business.Managers.SnapshotLicenseProductManager|ArtistRecsId: 4611
+2016-11-17 16:00:04.8589|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196237
+2016-11-17 16:00:04.8589|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196237
+2016-11-17 16:00:43.2299|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|CLONE TRACK ID: 196238
+2016-11-17 16:00:43.2299|INFO|DataHarmonizationProcessor.Data.Repositories.SnapshotWorksRecordingRepository|TRACK ID: 196238
+2016-11-17 16:02:04.4919|INFO|Topshelf.HostFactory|Configuration Result:
+[Success] Name DataHarmonizationProcessor
+[Success] ServiceName DataHarmonizationProcessor
+2016-11-17 16:02:04.5219|INFO|Topshelf.HostConfigurators.HostConfiguratorImpl|Topshelf v4.0.0.0, .NET Framework v4.0.30319.42000
+2016-11-17 16:02:06.3879|DEBUG|Topshelf.Builders.RunBuilder|Running as a console application, creating the console host.
+2016-11-17 16:02:06.3879|DEBUG|Topshelf.Hosts.ConsoleRunHost|Starting up as a console application
+2016-11-17 16:02:06.3949|DEBUG|DataHarmonizationProcessor.Application.DataHarmonizationService|***DataHarmonization service starts.***
+2016-11-17 16:02:06.3949|INFO|DataHarmonizationProcessor.Application.DataHarmonizationService|__ PollingTimer Started*
+2016-11-17 16:02:06.3949|INFO|Topshelf.Hosts.ConsoleRunHost|The DataHarmonizationProcessor service is now running, press Control+C to exit.
